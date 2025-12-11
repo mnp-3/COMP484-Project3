@@ -86,4 +86,4 @@ function stopFlashing(){
 }
 
 timerButton.addEventListener("click", startFlashing); //Bind `startFlashing` to the `timer-button` **click** event.
-timerButton.addEventListener("dbclick", stopFlashing); //Bind `stopFlashing` to the `timer-button` **dblclick** (double click) event.
+timerButton.addEventListener("dblclick", stopFlashing); //Bind `stopFlashing` to the `timer-button` **dblclick** (double click) event.
